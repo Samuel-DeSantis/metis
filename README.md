@@ -23,7 +23,7 @@ The goal is to fill a gap in project management software. There are many differe
 
 The project will have a manager which the project belongs to and a team which does the work that may consist of one or more engineers.
 
-| Project |   Manager    |   Assigned_to   | Status | Priority | Start | End |  Budget  |
+|  Name   |   Manager    |   Assigned_to   | Status | Priority | Start | End |  Budget  |
 |---------|--------------|-----------------|--------|----------|-------|-----|----------|
 | string  |   Manager    |   Engineer(s)   | string |  string  | date  |date |  Budget  |
 |         |              |                 |        |          |       |     |          |
