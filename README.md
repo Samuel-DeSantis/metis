@@ -1,7 +1,6 @@
-# Metis
-
+# Metis 
 ## Overview
-The goal is to fill a gap in project management software. There are many different ways people try to keep track of project information, but there tend to be major areas that are lacking. Metis is meant to try to fix those gaps in software and provide a more comprehensive one-stop-shop tool for project management ment to cover a variety of different industries.
+The goal is to fill a gap in project management software. There are many different ways people try to keep track of project information, but there tend to be major areas that are lacking. Metis is meant to try to fix those gaps in software and provide a more comprehensive one-stop-shop tool for project management ment to cover a variety of different industries. Metis is supposed to be the embodiment of wisdom and wise counsel. The hope is that Metis provides wisdom and wise counsel to project managers to keep track of their projects.
 
 ## Associations
 ### Project
@@ -41,4 +40,3 @@ This may need a separate tool all together, but the basic idea is to be able to 
 |  Name  | Project  |   Total   |
 |--------|----------|-----------|
 | string | Project  |   float   | 
-
