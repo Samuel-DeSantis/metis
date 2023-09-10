@@ -11,34 +11,34 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="mb-3">
     <%= form.label :name %>
     <%= form.text_field :name %>
   </div>
 
-  <div class="field">
+  <div class="mb-3">
     <%= form.label :user_id %>
     <%= form.number_field :user_id %>
   </div>
 
-  <div class="field">
+  <div class="mb-3">
     <%= form.label :status %>
     <%= form.text_field :status %>
   </div>
 
-  <div class="field">
+  <div class="">
     <%= form.label :priority %>
-    <%= form.text_field :priority %>
+    <%= form.select :priority, options_for_select([["Select Priority: "], "Low", "Moderate", "High"]), class: "form-select" %>
   </div>
 
-  <div class="field">
+  <div class="mb-3">
     <%= form.label :start %>
     <%= form.date_select :start %>
   </div>
 
-  <div class="field">
+  <div class="mb-3">
     <%= form.label :end %>
-    <%= form.text_field :end %>
+    <%= form.date_select :end %>
   </div>
 
   <div class="actions">

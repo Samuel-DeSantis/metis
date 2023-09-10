@@ -2,11 +2,12 @@
 
 <h1>Users</h1>
 
-<table>
+<table class="table table-hover">
   <thead>
     <tr>
       <th>Name</th>
       <th>Position</th>
+      <th>No. of Projects</th>
       <th>Bill rate</th>
       <th>Email</th>
       <th colspan="3"></th>
@@ -18,6 +19,7 @@
       <tr>
         <td><%= user.name %></td>
         <td><%= user.position %></td>
+        <td><%= user.projects.count %></td>
         <td><%= user.bill_rate %></td>
         <td><%= user.email %></td>
         <td><%= link_to 'Show', user %></td>
